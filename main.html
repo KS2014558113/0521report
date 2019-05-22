@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>메인페이지</title>
+<style>
+div {
+	display : inline-block;
+	position : absolute; /* 절대 배치 */
+	border : 3px solid black;
+}
+div > p {
+	display : inline-block; /* div의 자식 p */
+   position : absolute; /* 절대 배치 */
+	height : 20px;
+	width : 15px;
+	background : white;
+}
+#list{
+	background: coral;
+	color : black;
+	list-style-position :inside;
+	list-style-type: upper-roman;
+	padding : 10px 10px 10px 50px;
+
+	border-bottom : 10px solid red;
+
+}
+ul.a {
+	list-style-type:upper-roman;
+}
+ul.b{
+	list-style-type:circle;
+}
+</style>
+</head>
+<body>	
+<h3>메인페이지</h3>
+<hr>
+<p style="color :black"><b>추천하는 꿀팁 목록</p>
+<div>
+	<img src="a.jpg" 
+			width="200" height="200"  alt="느낌표">
+	
+</div>
+<hr> <br><br><br><br><br><br><br><br><br><br><br>		
+<nav id="list">
+<ul class="a">
+	<h3 ><li><a href="school.html">성적 잘 받는 꿀팁</a></li></h4>
+	  
+	<h3><li><a href="lol.html">롤 골드 가는 꿀팁</a></li></h3>
+	            
+	<h3><li>출처</li></h3>
+	      <ul class="b">
+           <li>
+             <a href="https://cms1.ks.ac.kr/sportal/Main.do">경성포탈</a>
+           </li>
+           <li>
+           	<a href="http://lol.inven.co.kr/">롤인벤</a>
+           </li>
+
+	      </ul>
+</ul>
+</nav>
+</body>
+</html>
